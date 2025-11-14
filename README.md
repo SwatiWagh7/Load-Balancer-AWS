@@ -9,10 +9,10 @@ Load balancing is the method of distributing network traffic equally across a po
 
 
 ## Benefits of load balancing:
-Application availability
-Application scalability
-Application security
-Application performance
+Application availability.
+Application scalability.
+Application security.
+Application performance.
 
 ## 1.	Application load balancer (ALB):
 Ideal for HTTP/HTTPS traffic, microservices, and container-based applications.
