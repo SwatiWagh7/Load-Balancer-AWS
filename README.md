@@ -1,5 +1,5 @@
 # Load Balancer in AWS
-Load Balancer | ALB/NLB/GLB | ALB Scenario and How these load balancer works
+Load Balancer | ALB/NLB/GLB | 
 ## Load Balancing in AWS
 Load balancing is the process of distributing network traffic equally across a pool of resources supporting an application. Modern applications process millions of users simultaneously. These high-traffic volumes require many resource servers with duplicate data. To redirect application traffic, ALBs examine the requested content, such as HTTP headers or SSL session IDs. NLBs examine IP addresses and other network information to redirect traffic optimally. GLBs act as a transparent network gateway (a single entry and exit point for all traffic) and distribute traffic while scaling your virtual appliances with the demand.
 ## There are three types of Load balancers used in the cloud:
