@@ -1,11 +1,19 @@
 # Load Balancer in AWS
 Load Balancer | ALB/NLB/GLB | 
 ## Load Balancing in AWS
-Load balancing is the process of distributing network traffic equally across a pool of resources supporting an application. Modern applications process millions of users simultaneously. These high-traffic volumes require many resource servers with duplicate data. To redirect application traffic, ALBs examine the requested content, such as HTTP headers or SSL session IDs. NLBs examine IP addresses and other network information to redirect traffic optimally. GLBs act as a transparent network gateway (a single entry and exit point for all traffic) and distribute traffic while scaling your virtual appliances with the demand.
+Load balancing is the method of distributing network traffic equally across a pool of resources that support an application. Modern applications must process millions of users simultaneously and return the correct text, videos, images, and other data to each user in a fast and reliable manner. To handle such high volumes of traffic, most applications have many resource servers with duplicate data between them. A load balancer is a device that sits between the user and the server group and acts as an invisible facilitator, ensuring that all resource servers are used equally.
 ## There are three types of Load balancers used in the cloud:
 1.	Application load balancer (ALB) - Operates at Layer 7 (Application layer) of the OSI model.
 2.	Network load balancer (NLB) - Operates at Layer 4 (Transport layer) of the OSI model.
 3.	Gateway load balancer (GLB) - Operates at Layer 3 (Network layer) of the OSI model.
+
+
+## Benefits of load balancing:
+Application availability
+Application scalability
+Application security
+Application performance
+
 ## 1.	Application load balancer (ALB):
 Ideal for HTTP/HTTPS traffic, microservices, and container-based applications.
 •	ALB uses a round-robin algorithm by default, routing traffic one after another. Suppose there are three servers S1, S2, S3 then the first request goes to S1, the second request goes to S2, the third request goes to S3, the fourth request goes back to S1 and so on.
